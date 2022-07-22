@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gitpod.io/#https://github.com/dailydotdev/apps/">
+  <a href="https://gitpod.io/#https://github.com/amanintech/research3-discover">
     <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
   </a>
 </p>
