@@ -27,9 +27,9 @@ tasks:
       ./wait-for.sh localhost:5432
       ./wait-for.sh localhost:3306
     command: |
-      docker exec apps-daily-api-1 node ./node_modules/typeorm/cli.js migration:run
-      docker exec apps-daily-gateway-1 yarn run db:migrate:latest
-      docker exec apps-daily-api-1 node bin/import.js
+      docker exec research3-discover-daily-api-1 node ./node_modules/typeorm/cli.js migration:run
+      docker exec research3-discover-daily-gateway-1 yarn run db:migrate:latest
+      docker exec research3-discover-daily-api-1 node bin/import.js
   - name: webapp
     before: |
       nvm install
